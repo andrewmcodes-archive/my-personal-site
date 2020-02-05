@@ -9,10 +9,10 @@ dataDir: src/data
 pagesDir: src/pages
 pageLayoutKey: template
 metadata:
-  title: Ampersand
-  description: Medium inspired blogging theme
-  author: Stackbit
-  authorURL: 'https://www.stackbit.com'
+  title: Andrew Mason
+  description: Andrew Mason | Personal Website
+  author: Andrew Mason
+  authorURL: 'https://www.andrewm.codes'
   images:
     small: images/demo-256x192.png
     large: images/demo-1024x768.png
@@ -155,7 +155,7 @@ models:
           - blue
           - black
           - red
-        default: green
+        default: blue
       - type: object
         name: header
         label: Header Configuration
