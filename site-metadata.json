@@ -15,6 +15,11 @@
                 "text": "Generated from DEV",
                 "url": "https://dev.to/connecting-with-stackbit",
                 "new_window": true
+            },
+            {
+                "text": "Privacy Policy",
+                "url": "https://andrewm.codes/privacy_policy",
+                "new_window": false
             }
         ],
         "has_social": true

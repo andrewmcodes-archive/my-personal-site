@@ -23,6 +23,7 @@ export default class Footer extends React.Component {
                 (link, link_idx) => (
                   <React.Fragment key={link_idx}>
                     <Link
+                      className="ml-2"
                       key={link_idx}
                       to={_.get(link, "url")}
                       {...(_.get(link, "new_window")
@@ -31,7 +32,6 @@ export default class Footer extends React.Component {
                     >
                       {_.get(link, "text")}
                     </Link>
-                    .
                   </React.Fragment>
                 )
               )}
